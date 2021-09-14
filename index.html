@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        <label for="cityInput">City Name: </label>
+        <input type="text" name="cityName" id="cityInput">
+        <br>
+        <label for="weatherSystem">Which system would you like to use:</label>
+        <select name="whichSystem" id="weatherSystem">
+            <option value="metric">Metric</option>
+            <option value="imperial">Imperial</option>
+        </select>
+        <br>
+        <button type="submit">Check now</button>
+    </form>    
+</body>
+</html>
